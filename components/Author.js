@@ -1,4 +1,3 @@
-import React from 'react';
 import { Avatar, Divider } from 'antd'
 
 const Author = () => {

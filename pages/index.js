@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Head from 'next/head'
 import { Row, Col, List, Icon } from 'antd'
 import Header from '../components/Header'
+import Advert from '../components/Advert'
+import Footer from '../components/Footer'
 import Author from '../components/Author'
 import '../static/style/pages/index.css'
 
@@ -44,8 +46,10 @@ const Home = () => {
         </Col>
         <Col className="comm-left" xs={0} sm={0} md={7} lg={5} xl={4}>
           <Author />
+          <Advert />
         </Col>
       </Row>
+      <Footer />
     </>
   )
 }
